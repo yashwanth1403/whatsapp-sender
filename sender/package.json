@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-sender",
+  "version": "1.0.0",
+  "description": "Baileys-based WhatsApp sender for car dealer cold outreach",
+  "main": "sender.js",
+  "scripts": {
+    "setup": "node sender.js setup",
+    "send": "node sender.js send"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.18",
+    "@hapi/boom": "^10.0.1",
+    "qrcode-terminal": "^0.12.0",
+    "pino": "^9.4.0"
+  }
+}
